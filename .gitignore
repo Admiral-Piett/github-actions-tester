@@ -1,0 +1,15 @@
+.idea
+*.iml
+
+dist/
+
+vendor/
+deployments/
+
+thisApp
+
+*.log
+
+setenv.sh
+
+.env
