@@ -3,15 +3,10 @@ name: Release
 
 on:
   workflow_dispatch:
-    branches: [add-releaser]
     inputs:
       tag:
-        description: "New Build Tag"
+        description: "New Build Tag (eg. 0.0.1)"
         required: true
-#      commit_message:
-#        description: "Commit Message"
-#        required: true
-
 
 jobs:
   tag:
